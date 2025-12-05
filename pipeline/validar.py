@@ -3,8 +3,8 @@ Pipeline - Etapa 2: Validar Dados com Pandera
 """
 
 import pandas as pd
-import pandera as pa
-from pandera import Column, Check, DataFrameSchema
+import pandera.pandas as pa
+from pandera.pandas import Column, Check, DataFrameSchema
 
 
 def criar_schema():
